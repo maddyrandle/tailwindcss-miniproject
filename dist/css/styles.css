@@ -552,18 +552,21 @@ video {
 }
 
 h1 {
+  font-family: Oswald;
   font-size: 3rem;
   line-height: 1;
   margin-bottom: 1.5rem;
 }
 
 h2 {
+  font-family: Oswald;
   font-size: 1.875rem;
   line-height: 2.25rem;
   margin-bottom: 0.75rem;
 }
 
 h3 {
+  font-family: Oswald;
   font-size: 1.5rem;
   line-height: 2rem;
   margin-bottom: 0.5rem;
@@ -11288,6 +11291,10 @@ h3 {
 
 .font-mono {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.font-headline {
+  font-family: Oswald;
 }
 
 .font-thin {
@@ -31238,6 +31245,12 @@ h3 {
           animation: bounce 1s infinite;
 }
 
+@font-face {
+  font-family: Oswald;
+
+  src: url(/dist/fonts/Oswald/Oswald-Bold.ttf) format("truetype");
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -41913,6 +41926,10 @@ h3 {
 
   .sm\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .sm\:font-headline {
+    font-family: Oswald;
   }
 
   .sm\:font-thin {
@@ -72462,6 +72479,10 @@ h3 {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .md\:font-headline {
+    font-family: Oswald;
+  }
+
   .md\:font-thin {
     font-weight: 100;
   }
@@ -103007,6 +103028,10 @@ h3 {
 
   .lg\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .lg\:font-headline {
+    font-family: Oswald;
   }
 
   .lg\:font-thin {
@@ -133556,6 +133581,10 @@ h3 {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .xl\:font-headline {
+    font-family: Oswald;
+  }
+
   .xl\:font-thin {
     font-weight: 100;
   }
@@ -164101,6 +164130,10 @@ h3 {
 
   .\32xl\:font-mono {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .\32xl\:font-headline {
+    font-family: Oswald;
   }
 
   .\32xl\:font-thin {
