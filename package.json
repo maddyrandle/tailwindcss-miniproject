@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/madisonrandle/tailwindcss-miniproject#readme",
   "dependencies": {
+    "@fullhuman/postcss-purgecss": "^4.0.3",
     "autoprefixer": "^10.2.5",
     "postcss": "^8.2.8",
     "postcss-cli": "^8.3.1",
